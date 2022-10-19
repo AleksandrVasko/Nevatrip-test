@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="./style.css" rel="stylesheet">
+    <title>2.2 Время из A в B</title>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main>
+        <label for="route">Выберите маршрут</label>
+        <select name="route" id="route">
+            <option value=""></option>
+            <option value="из A в B">из A в B</option>
+            <option value="из B в A">из B в A</option>
+            <option value="из A в B и обратно в А">из A в B и обратно в А</option>
+        </select>
+        <label for="time">Выберите время</label>
+        <select name="time" id="time" disabled>
+        </select>   
+        <div id="back-time-container" style="display: none;">
+            <label for="back-time">Выберите обратное время</label>
+            <select name="back-time" id="back-time">
+            </select>
+        </div>
+        <div class="num">
+            <label for="num">Количество билетов</label>
+            <input id="num" disabled>
+        </div>
+        <button disabled>Посчитать</button>
+    </main>
+    <div id="output"></div>
+</body>
+</html>
+

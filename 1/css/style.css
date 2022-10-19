@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    max-width: 375px;
+    width: 341px;
+    margin: 27px auto;
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+}
+
+.new {
+    position: absolute;
+    top: 70px;
+}
+.new-two {
+    position: absolute;
+}
+.clock {
+    display: flex;
+}
+
+ul {
+    /* list-style-type: none; */
+    margin-bottom: 12px;
+    margin-left: 20px;
+    list-style-position: outside;
+    list-style-image: url(../img/check-mark.svg)
+}
+ 
+li {
+    margin-bottom: 12px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+
+.clocks {
+    text-decoration: none;
+    background: #D9E8FF;
+    border-radius: 11px;
+    padding: 6px 14px 6px 14px;
+    display: inline-block;
+    color: #343434;
+    margin-right: 4px;
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.clock {
+    margin: 15px 0 0 12px;
+}
+
+.text-clock {
+    color: #9E9E9E;
+    margin-left: 9px;
+}
+
+h3 {
+    font-size: 14px;
+    width: 317px;
+    margin: 15px 12px 20px 12px ;
+    font-weight: 600;
+}
+
+.clocks-container {
+    margin-left: 39px;
+}
+
+.btn-price {
+    margin: 35px 19px 19px 19px;
+    display: flex;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1em;
+}
+
+.price p {
+    font-size: 10px;
+}
+
+.btn {
+    background: #FED74B;
+    border: 0.5px solid #CBA500;
+    border-radius: 20px;
+    padding: 12px 35px;
+    margin-left: 50px;
+}
+
+.btn-two {
+    background: #FED74B;
+    border: 0.5px solid #CBA500;
+    border-radius: 10px;
+    margin-left: 19px;
+    padding: 12px 48px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.btn-two a {
+    text-decoration: none;
+    color: #404040;
+    font-weight: 600;
+}
